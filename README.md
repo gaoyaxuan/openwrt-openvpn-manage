@@ -1,3 +1,7 @@
+# Lede openvpn manage 
+```bash
+curl -O https://raw.githubusercontent.com/gaoyaxuan/openvpn-install/master/openvpn-install.sh && chmod +x openvpn-install.sh && ./openvpn-install.sh
+```
 # openvpn-install
 
 ![Test](https://github.com/angristan/openvpn-install/workflows/Test/badge.svg)
