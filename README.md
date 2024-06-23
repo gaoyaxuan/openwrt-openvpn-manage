@@ -1,5 +1,8 @@
 # Lede openvpn manage 
 ```bash
+cd /etc
+tar -zcvf openvpn-bk.tar.gz openvpn/
+rm -rf /etc/openvpn
 curl -O https://raw.githubusercontent.com/gaoyaxuan/openvpn-install/master/openvpn-install.sh && chmod +x openvpn-install.sh && ./openvpn-install.sh
 ```
 # openvpn-install
